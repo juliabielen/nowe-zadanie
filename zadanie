@@ -1,0 +1,10 @@
+public interface UserService {
+
+    void create();
+    
+    List<User> read();
+    
+    void update();
+    
+    void delete();
+}
